@@ -14,7 +14,6 @@ class CreatePatternViewController: UIViewController {
 
     
     @IBOutlet weak var nameTextField: UITextField!
-    
     @IBOutlet weak var nameTextField2: UITextField!
     
     override func viewDidLoad() {
@@ -33,7 +32,9 @@ class CreatePatternViewController: UIViewController {
         var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
         
         var pattern = NSEntityDescription.insertNewObjectForEntityForName("Pattern", inManagedObjectContext: context) as! Pattern
-        pattern.name = self.nameTextField2.text
+        pattern.name = self.nameTextField.text
+        println(pattern.name)
+
         context.save(nil)
         self.dismissViewControllerAnimated(true, completion: nil)
     }

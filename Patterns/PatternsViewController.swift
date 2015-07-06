@@ -40,7 +40,7 @@ class PatternsViewController: UIViewController, UITableViewDataSource, UITableVi
         if results != nil {
             self.patterns = results! as! [Pattern]
         }
-
+        tableView.reloadData()
     }
     
     func createTestPatterns() {
