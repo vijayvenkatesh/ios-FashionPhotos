@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		B125E8F91B4A316F00FA9C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E8F81B4A316F00FA9C97 /* AppDelegate.swift */; };
 		B125E8FC1B4A316F00FA9C97 /* Patterns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B125E8FA1B4A316F00FA9C97 /* Patterns.xcdatamodeld */; };
-		B125E8FE1B4A316F00FA9C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E8FD1B4A316F00FA9C97 /* ViewController.swift */; };
+		B125E8FE1B4A316F00FA9C97 /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E8FD1B4A316F00FA9C97 /* PatternsViewController.swift */; };
 		B125E9011B4A316F00FA9C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B125E8FF1B4A316F00FA9C97 /* Main.storyboard */; };
 		B125E9031B4A316F00FA9C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B125E9021B4A316F00FA9C97 /* Images.xcassets */; };
 		B125E9061B4A316F00FA9C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B125E9041B4A316F00FA9C97 /* LaunchScreen.xib */; };
 		B125E9121B4A316F00FA9C97 /* PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E9111B4A316F00FA9C97 /* PatternsTests.swift */; };
+		B125E91E1B4A3A1D00FA9C97 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E91D1B4A3A1D00FA9C97 /* Pattern.swift */; };
+		B125E9201B4AB91400FA9C97 /* pattern.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B125E91F1B4AB91400FA9C97 /* pattern.jpeg */; };
+		B125E9221B4ABB6800FA9C97 /* PatternDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E9211B4ABB6800FA9C97 /* PatternDetailViewController.swift */; };
+		B125E9241B4ADC6F00FA9C97 /* backimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B125E9231B4ADC6F00FA9C97 /* backimage.jpeg */; };
+		B125E9261B4AFC8100FA9C97 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E9251B4AFC8100FA9C97 /* ZoomViewController.swift */; };
+		B125E9281B4B10FD00FA9C97 /* CreatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125E9271B4B10FD00FA9C97 /* CreatePatternViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +37,19 @@
 		B125E8F71B4A316F00FA9C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B125E8F81B4A316F00FA9C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B125E8FB1B4A316F00FA9C97 /* Patterns.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Patterns.xcdatamodel; sourceTree = "<group>"; };
-		B125E8FD1B4A316F00FA9C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B125E8FD1B4A316F00FA9C97 /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		B125E9001B4A316F00FA9C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B125E9021B4A316F00FA9C97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B125E9051B4A316F00FA9C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B125E90B1B4A316F00FA9C97 /* PatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B125E9101B4A316F00FA9C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B125E9111B4A316F00FA9C97 /* PatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTests.swift; sourceTree = "<group>"; };
+		B125E91D1B4A3A1D00FA9C97 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		B125E91F1B4AB91400FA9C97 /* pattern.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pattern.jpeg; sourceTree = SOURCE_ROOT; };
+		B125E9211B4ABB6800FA9C97 /* PatternDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternDetailViewController.swift; sourceTree = "<group>"; };
+		B125E9231B4ADC6F00FA9C97 /* backimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backimage.jpeg; sourceTree = SOURCE_ROOT; };
+		B125E9251B4AFC8100FA9C97 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		B125E9271B4B10FD00FA9C97 /* CreatePatternViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePatternViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +91,19 @@
 		B125E8F51B4A316F00FA9C97 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				B125E9231B4ADC6F00FA9C97 /* backimage.jpeg */,
+				B125E91F1B4AB91400FA9C97 /* pattern.jpeg */,
+				B125E91D1B4A3A1D00FA9C97 /* Pattern.swift */,
 				B125E8F81B4A316F00FA9C97 /* AppDelegate.swift */,
-				B125E8FD1B4A316F00FA9C97 /* ViewController.swift */,
+				B125E8FD1B4A316F00FA9C97 /* PatternsViewController.swift */,
 				B125E8FF1B4A316F00FA9C97 /* Main.storyboard */,
 				B125E9021B4A316F00FA9C97 /* Images.xcassets */,
 				B125E9041B4A316F00FA9C97 /* LaunchScreen.xib */,
 				B125E8FA1B4A316F00FA9C97 /* Patterns.xcdatamodeld */,
 				B125E8F61B4A316F00FA9C97 /* Supporting Files */,
+				B125E9211B4ABB6800FA9C97 /* PatternDetailViewController.swift */,
+				B125E9251B4AFC8100FA9C97 /* ZoomViewController.swift */,
+				B125E9271B4B10FD00FA9C97 /* CreatePatternViewController.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -197,6 +215,8 @@
 			files = (
 				B125E9011B4A316F00FA9C97 /* Main.storyboard in Resources */,
 				B125E9061B4A316F00FA9C97 /* LaunchScreen.xib in Resources */,
+				B125E9201B4AB91400FA9C97 /* pattern.jpeg in Resources */,
+				B125E9241B4ADC6F00FA9C97 /* backimage.jpeg in Resources */,
 				B125E9031B4A316F00FA9C97 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,8 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B125E8FE1B4A316F00FA9C97 /* ViewController.swift in Sources */,
+				B125E8FE1B4A316F00FA9C97 /* PatternsViewController.swift in Sources */,
+				B125E9261B4AFC8100FA9C97 /* ZoomViewController.swift in Sources */,
+				B125E9281B4B10FD00FA9C97 /* CreatePatternViewController.swift in Sources */,
 				B125E8FC1B4A316F00FA9C97 /* Patterns.xcdatamodeld in Sources */,
+				B125E9221B4ABB6800FA9C97 /* PatternDetailViewController.swift in Sources */,
+				B125E91E1B4A3A1D00FA9C97 /* Pattern.swift in Sources */,
 				B125E8F91B4A316F00FA9C97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
