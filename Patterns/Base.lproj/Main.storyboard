@@ -75,7 +75,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pattern.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JfI-Oj-HGN">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pattern.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JfI-Oj-HGN">
                                 <rect key="frame" x="182" y="200" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="Hyl-vR-E1c"/>
@@ -92,7 +92,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="backimage.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uao-Mu-FbQ">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="backimage.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uao-Mu-FbQ">
                                 <rect key="frame" x="182" y="432" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="VLv-Ll-d8P"/>
@@ -154,6 +154,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backImageView" destination="uao-Mu-FbQ" id="07B-ON-k3W"/>
+                        <outlet property="frontImageView" destination="JfI-Oj-HGN" id="ahk-3Z-iWs"/>
                         <outlet property="nameTextField" destination="2Ed-0i-HGW" id="wcK-ri-5iX"/>
                         <outlet property="nameTextField2" destination="2Ed-0i-HGW" id="Cwb-xf-mqx"/>
                     </connections>
